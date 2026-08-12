@@ -221,7 +221,7 @@ The SQL queries are stored in:
 
 uber_queries.sql
 Example business questions analyzed
-1. Total number of trips
+1. Total  trips
 SELECT COUNT(*) AS total_trips
 FROM uber_cleaned;
 2. Total revenue
@@ -233,28 +233,13 @@ FROM uber_cleaned;
 4. Average trip distance
 SELECT AVG(trip_distance) AS average_trip_distance
 FROM uber_cleaned;
-5. Trips by payment type
-SELECT 
-    payment_type,
-    COUNT(*) AS total_trips
-FROM uber_cleaned
-GROUP BY payment_type
-ORDER BY total_trips DESC;
-6. Revenue by payment type
+5. Revenue by payment type
 SELECT
     payment_type,
     SUM(fare_amount) AS total_revenue
 FROM uber_cleaned
-GROUP BY payment_type
-ORDER BY total_revenue DESC;
-7. Trips by hour
-SELECT
-    HOUR(pickup_datetime) AS pickup_hour,
-    COUNT(*) AS total_trips
-FROM uber_cleaned
-GROUP BY HOUR(pickup_datetime)
-ORDER BY pickup_hour;
-8. Revenue by hour
+GROUP BY payment_type;
+6. Revenue by hour
 SELECT
     HOUR(pickup_datetime) AS pickup_hour,
     SUM(fare_amount) AS total_revenue
