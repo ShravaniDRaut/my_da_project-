@@ -117,7 +117,7 @@ Trip distance
 Revenue-related metrics
 
 The cleaning process is available in:
-
+[cleaning.py](./cleaning.py)
 
 🗄️ 2. SQL Analysis
 SQL was used to answer business questions and identify important patterns in the dataset.
@@ -136,7 +136,7 @@ Peak demand periods
 Route-level analysis
 
 SQL queries are available in:
-Uber MySQL Analysis
+[uber_queries.sql](./uber_queries.sql)
 
 📊 3. Power BI Dashboard
 
@@ -153,7 +153,7 @@ Customer & Trip Analysis
 Final Business Recommendations
 
 Power BI file:
- Uber Dashboard.pbix
+ [Uber Dashboard.pbix](./Uber%20Dashboard.pbix)
 
 📸 Dashboard Preview
 Executive Overview
