@@ -67,8 +67,8 @@ The project uses a sample NYC taxi/Uber-style trip dataset containing trip-level
 
 ### Dataset Files
 
-- `nyc_taxi_sample_5000.csv` — Raw/sample dataset
-- `uber_cleaned.csv` — Cleaned dataset
+- [nyc_taxi_sample_5000.csv](nyc_taxi_sample_5000.csv) — Raw/sample dataset
+- [uber_cleaned.csv](uber_cleaned.csv) — Cleaned dataset
 
 ---
 
@@ -116,7 +116,7 @@ Trip distance
 Revenue-related metrics
 
 The cleaning process is available in:
-cleaning.py
+
 
 🗄️ 2. SQL Analysis
 SQL was used to answer business questions and identify important patterns in the dataset.
@@ -135,7 +135,7 @@ Peak demand periods
 Route-level analysis
 
 SQL queries are available in:
-uber_queries.sql
+Uber MySQL Analysis
 
 📊 3. Power BI Dashboard
 
@@ -152,8 +152,7 @@ Customer & Trip Analysis
 Final Business Recommendations
 
 Power BI file:
-
-Uber Dashboard.pbix
+ Uber Dashboard.pbix
 
 📸 Dashboard Preview
 Executive Overview
